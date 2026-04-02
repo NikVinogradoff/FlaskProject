@@ -1,7 +1,7 @@
 services:
   FlaskProject:
     build: .
-    container_name: FlaskProject
+    container_name: flaskproject
     image: FlaskProject:latest
     ports:
       - "8081:8081"
